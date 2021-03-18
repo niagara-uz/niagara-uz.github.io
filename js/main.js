@@ -261,7 +261,7 @@
 
         $.ajax({
           type: "POST",
-          url: "inc/sendEmail.php",
+          url: "https://api.niagara.uz/.netlify/functions/contact",
           data: $(form).serialize(),
 
           beforeSend: function () {
